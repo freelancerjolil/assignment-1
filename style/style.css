@@ -8,6 +8,7 @@
 }
 /* Header Section Start here */
 /* Header Section End here */
+
 /* banner Section Start here */
 .banner-container {
   width: 1440px;
@@ -71,6 +72,67 @@
 }
 
 /* Banner Section End here */
+
+/* Main Section Start here */
+.title-section {
+  width: 1140px;
+  height: 1395px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.heading-container {
+  width: 946px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.heading-container h1 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 48px;
+}
+.heading-container p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+.first-box-container {
+  width: 946px;
+  height: 336px;
+  border: 2px solid red;
+  margin: 0 auto;
+  display: flex;
+}
+.left-side-1 {
+  width: 477px;
+  height: 140px;
+  margin: auto;
+}
+.left-side-1 h2 {
+  margin-bottom: 20px;
+}
+.left-side-1 p {
+  margin-bottom: 30px;
+}
+.btn-learn-more button {
+  width: 150px;
+  height: 48px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
 
 /* Main Section End here */
 
