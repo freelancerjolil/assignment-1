@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+}
+/* Header Section Start here */
+.navbar {
+  height: 60px;
+  width: 1440px;
+  border: 2px solid red;
+
+  margin: 0 auto;
+  color: Black;
+}
+
+.logo-title h1 {
+  font-size: 48px;
+  font-weight: 800px;
+}
+.logo-title h1 span {
+  color: Red;
+}
+/* Header Section End here */
+.banner-container {
+  width: 1440px;
+  height: 600px;
+  border: 2px solid black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.banner-container img {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+/* Main Section Start here */
+.youtube-video {
+  width: 1440px;
+  height: 614;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.youtube-video h1 {
+  font-size: 48px;
+  font-weight: 800px;
+  margin-bottom: 20px;
+}
+.youtube-video p {
+  padding-bottom: 20px;
+}
+.video {
+  margin-top: 20px;
+  width: 1440px;
+  height: 614;
+  margin: auto;
+  border: 2px solid rgb(65, 64, 64);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Main Section End here */
+
+/* Footer Section Start here */
+
+/* Footer Section End here */
