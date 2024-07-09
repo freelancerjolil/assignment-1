@@ -50,7 +50,6 @@
   line-height: 26px;
   text-align: center;
 }
-
 .banner-container button {
   width: 208px;
   height: 66px;
@@ -115,7 +114,8 @@
 .left-side-1 {
   width: 477px;
   height: 140px;
-  margin: auto;
+  border: 2px solid red;
+  margin: 20px 0 20px;
 }
 .left-side-1 h2 {
   margin-bottom: 20px;
