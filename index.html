@@ -17,7 +17,8 @@
           life. Think about the e-commerce site that allows a small business to
           reach customers worldwide.
         </p>
-        <button>Contact with me</button>
+        
+        <button class="contact-button" onclick="document.getElementById('footer').scrollIntoView();">Contact With Me</button>
       </div>
     </div>
 
@@ -77,7 +78,7 @@
             </p>
 
             <div class="btn-learn-more">
-              <button>Learn More</button>
+              <button onclick="document.location='default.asp'">>Learn More</button>
             </div>
           </div>
 
@@ -107,18 +108,33 @@
         </div>
 
         <!-- Current Target -->
-        <div class="current-target">
+        <section class="current-target">
           <div class="my-target">
-            <h2>My Inspiration</h2>
+            <h2>My Current Target</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text.
             </p>
+            <section>
+              
+            </section>
       </div>
     <!-- Main Section End here -->
 
      <!-- Footer Section Start here -->
-    <footer></footer>
+     <footer id="footer">
+      <div class="footer-section">
+          <h1>I Need Support</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+      
+      <form action="/index.html">
+
+          <input class="input-box" type="text" placeholder="Enter your Email" name="submit">
+          <input id="lastbtn" type="submit" value="Submit">
+      </div>
+  </footer>
+    
     <!-- Footer Section End here  -->
   </body>
 </html>
