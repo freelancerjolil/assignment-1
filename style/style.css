@@ -12,8 +12,7 @@ body {
   margin: 0 auto;
 }
 /*shared styles*/
-  .secondery-bg{
-    color: #FAFAFB;
+   
   }
 }
 /* Header Section Start here */
@@ -23,12 +22,12 @@ body {
   width: 1440px;
   height: 652px;
   border: 0;
-  background-image: url("../assets/images/Hero-bg.png");
+  background-image: url('../assets/images/Hero-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 .banner-img {
   width: 998px;
@@ -119,7 +118,6 @@ body {
   margin-top: 100px;
 }
 .content-box-text {
-  
   width: 50%;
   text-align: left;
 }
@@ -132,7 +130,7 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-.content-box-text h3,
+.content-box-text h4,
 p,
 button {
   margin-bottom: 20px;
@@ -393,7 +391,7 @@ iframe {
 .card-2 a {
   text-decoration: none;
   color: #0d1321;
-  border-bottom: 3px solid green;
+  
 }
 
 .card-3 {
